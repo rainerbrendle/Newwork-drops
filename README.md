@@ -9,9 +9,9 @@ THe control has several droplets:
 - Admin
 - Control Plane Journal and a High-Water Mark
 - Yellow Pages : actual location of the shards and their purpose
-- White Pages: business related information to shards
+- White Pages: business related information to shards: companies and organizations
 - Blues Pages: APIs, Objects and Interface directory
 - Data Plane and Data Plane Journals and approriate High-Water Marks
-- Stable Views: "Ledgers" and Materialized Viewsd a
+- Stable Views: "Ledgers" and Materialized Viewsd
 
 A Droplet is a colletion of a database schema, GO-based Web Server delivery layer for headless API acess and a database access layer basically per model data type.
