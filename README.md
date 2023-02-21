@@ -1,4 +1,4 @@
-# Newwork-drops
+# Newwork-Drops
 Active Data Cluster Droplet Model 
 
 A first try for a acitive cluster database using docker and GO-based Droplets on PostgreSQ-like databaseshards with eventual consistency guarantee.
