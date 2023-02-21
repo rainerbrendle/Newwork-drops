@@ -6,9 +6,9 @@ A first try for a acitive cluster database using docker and GO-based Droplets on
 We have a control plane, which manages the cluster's partitions ("shards") 
 THe control has several droplets:
 - Admin
-- Control plane journal
-- Yellow pages : actual location of the shards and their purpose
-- White pages: business related information to shards
-- Blues pages: APIs, Objects and Interface directory
-- Data plane and data plane journals
-- Stable Views
+- Control Plane Journal
+- Yellow Pages : actual location of the shards and their purpose
+- White Pages: business related information to shards
+- Blues Pages: APIs, Objects and Interface directory
+- Data Plane and Data Plane Journals
+- Stable Views: "Ledgers" and Materialized Views
